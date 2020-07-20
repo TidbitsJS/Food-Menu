@@ -99,6 +99,21 @@ p {
   color: #fff;
 }
 
+@media (max-width: 500px) {
+  .btn-container {
+    color: red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .photo {
+    height: 200px;
+    background-size: cover;
+    object-fit: contain;
+  }
+}
+
 .section-center {
   width: 90vw;
   margin: 0 auto;
